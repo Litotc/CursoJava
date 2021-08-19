@@ -1,7 +1,8 @@
 
 public class HolaMundo {
     public static void main(String args[]){
-        system.out.println("Hola mundo desde java");
+        int miVariableEntera=10;
+        System.out.println(miVariableEntera);
     }
      
 }
