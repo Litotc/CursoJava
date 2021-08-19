@@ -10,10 +10,17 @@ public class HolaMundo {
         
         //crear  variable string
         String miVariableCadena="saludos";
-        System.out.println(miVariableCadena);
+        System.out.println("miVariableCadena = " + miVariableCadena);
         
         miVariableCadena="adios";
-        System.out.println(miVariableCadena);
+        System.out.println("miVariableCadena = " + miVariableCadena); 
+        
+        //usamos el condicinal var para definir cualquier tipo de variable
+        var miVariableEntera2=10;
+        System.out.println("miVariableEntera2 = " + miVariableEntera2); 
+        
+        var miVaribleCadena2="prueba";
+        System.out.println("miVariableEntera2="+miVaribleCadena2);
                 }
      
 }
