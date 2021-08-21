@@ -1,13 +1,16 @@
 
+import java.util.Scanner;
+
+
 public class HolaMundo {
 
     public static void main(String args[]) {
-        var nombre = "Karla";
-        System.out.println("nombre: \n" + nombre);
-        System.out.println("Tabulador: \t " + nombre);
-        System.out.println("Retroceso: \b\b"+nombre);
-        System.out.println("comilla simple: \'"+nombre+"'");
-        System.out.println("comilla doble: \""+nombre"\"");
-        
+        System.out.println("Escribe tu nombre");
+        Scanner consola = new Scanner(System.in);
+        var usuario=consola.nextLine();
+        System.out.println("usuario = " + usuario);
+        System.out.println("Escribe el ttítulo");
+        var titulo=consola.nextLine();
+        System.out.println("Resultado:"+titulo+" "+usuario);
         }
 }
