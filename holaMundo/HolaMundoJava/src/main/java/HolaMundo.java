@@ -2,13 +2,12 @@
 public class HolaMundo {
 
     public static void main(String args[]) {
-        var usuario = "Juan";
-        var titulo = "ingeniero";
-        var union = titulo + " " + usuario;
-        System.out.println("union = " + union);
+        var nombre = "Karla";
+        System.out.println("nombre: \n" + nombre);
+        System.out.println("Tabulador: \t " + nombre);
+        System.out.println("Retroceso: \b\b"+nombre);
+        System.out.println("comilla simple: \'"+nombre+"'");
+        System.out.println("comilla doble: \""+nombre"\"");
         
-        var i=3;
-        var j=4;
-        System.out.println(i+j);
-
-    }
+        }
+}
